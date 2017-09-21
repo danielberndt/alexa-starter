@@ -5,7 +5,7 @@
   "runtime": "nodejs6.10",
   "timeout": 10,
   "memorySize": 128,
-  "handler": "lib.default",
+  "handler": "lib.handler",
   "hooks": {
     "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
     "clean": "rm -fr lib"
